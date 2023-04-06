@@ -3,3 +3,174 @@ margin:0;
 padding: 0;
 box-sizing: border-box;
 }
+
+body
+{
+    background-color: #9F4CE0;
+}
+
+.login{
+    background: rgba(217, 217, 217, 0.42);
+    border-radius: 27px ;
+     width: 460px;
+     margin: 0 auto; 
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     color:white;
+     text-align: center;
+     border: 2px solid white;
+ }
+ .botao{
+    background-color:  #9F4CE0;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+ }
+ .upload{
+    background-color:  #9F4CE0;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 20px;
+    text-align: center;
+ }
+
+ input{
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #D9D9D9;
+    border-radius: 8px; 
+    border: 2px solid white;
+ }
+ 
+ img{
+    margin: 30px;
+ }
+
+ .log{
+    font-size: 40px;
+ }
+
+ .img1{
+    height: 30px;
+    width: 30px;
+ }
+
+.im{
+    height: 110px;
+    width: 130px;
+}
+.p{
+ color: white;
+ display: flex;
+ text-align: center;
+ flex-direction: column;
+}
+
+.ig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+p{
+    color: white;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.cabecalho>img {
+    height: 60px;
+     
+}
+
+.menu {
+    display: flex;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu>li a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h1, p{
+    color: white;
+    margin-bottom: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.mg{
+    display: flex;
+
+}
+.botao2{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid black;  
+    color: black;
+}
+.botao3{
+    background-color:blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid black;  
+    color: white;
+}
+.tg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+.sr{
+    height: 70px;
+    width: 80px;
+    margin: 0px;
+}
+.ds{
+    margin: 0px;
+}
+.hg{
+    margin: 0px;
+    margin-bottom: -20px;
+}
